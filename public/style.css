@@ -1,0 +1,15 @@
+@font-face {
+    font-family: '851Gkktt_005';
+    src: url('./font/851Gkktt_005.ttf'), /* IE9 Compat Modes */
+    url('./font/851Gkktt_005.ttf') format('embedded-opentype'), /*IE6-IE8*/
+    url('./font/851Gkktt_005.woff') format('woff'), /*Pretty Modern Browsers*/
+    url('./font/851Gkktt_005.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./font/851Gkktt_005.ttf') format('svg');
+}
+
+* {
+    font-family: '851Gkktt_005';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

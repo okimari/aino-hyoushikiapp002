@@ -1,0 +1,38 @@
+.topPageDesign {
+    width: 100%;
+    height: 100vh;
+    background: #E55F50;
+    background-image: url(../images/bg01.png);
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.wrapBox {
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topPageDesign dl {
+    /* background: #999; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 350px;
+    text-align: center;
+    /*一応BOX内の文字も中央寄せ*/
+}
+
+.topPageDesign dl dt h1 {
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.topPageDesign dl dd p {
+    font-size: 20px;
+    font-weight: 200;
+}
